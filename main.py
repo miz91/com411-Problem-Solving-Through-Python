@@ -1,27 +1,14 @@
-print ("What's your name?")
-n = input()
-# print("Do you have a dog? (Type True or False)")
-# dog = input()
+#while loop and for loop is used to have a repetition of a procedure in our code
 
-if len (n) > 9 :
-  print ("You've a very long name!")
- 
-  #len is used to get the length of the variable
-  #if statement is used to verify true or false
-  
-  print("Consider shorten it up")
-  print("Your name contains {} letters." .format (len(n)))
+print ("How many times to print the symbol?")
+x = int (input()) #x = 3
 
-#elif will only run when if is false
+# i is a counter- it keeps track of how many times we went through the loop
 
-elif len(n) > 6 :
-  print ("Your name is bit long")
+i = 0
 
-elif len(n) < 3 :
-  print ("Your name is very short") 
- 
+while i < x : #condition for repeating the loop as long as i lower than x
+  print ("\u27BD", i) #i is used to get the number
+  i = i+1 #new value of counter is +1
 
-else:
-    print ("Your name is ok")
-
-print ("This is the END of the program!")
+print("We left the loop")
