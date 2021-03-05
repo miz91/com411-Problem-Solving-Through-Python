@@ -3,6 +3,6 @@
 print("Please enter the character for the eye")
 eye = input ()
 print ("##########")
-print ("#  {}  {}  #" .format (eye))
+print (f"#  {eye}  {eye}  #") 
 print ("#  ----  #")
 print ("##########")
