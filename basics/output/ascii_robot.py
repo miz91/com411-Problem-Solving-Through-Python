@@ -1,5 +1,5 @@
 # Display a box
-#getting a charcacter from the use for the eye
+#getting a character from the use for the eye
 print("Please enter the character for the eye")
 eye = input ()
 print ("##########")

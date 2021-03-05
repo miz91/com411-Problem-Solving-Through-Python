@@ -4,7 +4,7 @@ print ("Whats your age in years")
 age = int (input ())
 print ("Whats your weight in kg")
 weight = float (input ())
-print ("Whats your height in meters")
+print ("Whats your height in cm")
 height = float (input ())
 
 bmi = weight/(height**2)
