@@ -25,11 +25,8 @@ elif option == 3:
 elif option == 4:
   print ("What number timetable would you like to see?")
   n = int (input())
-  for i in range (1,11,1):
+  for i in range (1,11,2):
     print ("{}*{}={}".format (n,i,n*i))
 
 else:
   print ("You're so dumb")
-
-
-
