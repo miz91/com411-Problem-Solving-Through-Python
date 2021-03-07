@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #program that displays a message and allow user to select an option 
 
 print ("Please select an option\n\n1.Nice message\n2.Area of a rectangle.\n3.Area of a triangle.\n4.Times table")
@@ -33,3 +34,16 @@ else:
 
 
 
+=======
+#Improving Beeps health
+print ("Enter the number of lives")
+lives = int (input ())
+print ("Enter the energy level")
+energy = int (input ())
+print ("Enter the shield level")
+shield = int (input ())
+
+print ("Lives:" + "\u2764"*lives)
+print ("Energy:" + "\u26E8"* energy)
+print ("Shield:"+ "\uF64F"* shield)
+>>>>>>> b3c2ff02b8a6d252cad2b104023d3d1a675efdc4
