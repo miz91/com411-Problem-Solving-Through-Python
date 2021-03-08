@@ -30,3 +30,5 @@ elif option == 4:
 
 else:
   print ("You're so dumb")
+
+  ##get fetch --all is used for error
