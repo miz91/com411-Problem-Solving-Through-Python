@@ -1,11 +1,12 @@
-# finding even and odd numbers
-# modulus % is used to get the remaining value 
+#identifying the smallest of 2 numbers
+print ("Enter the first number")
+n1 = int (input())
+print ("Enter the second number")
+n2 = int (input())
 
-print ("Enter a number")
-n = int (input ())
-
-if (n % 2 == 0):
-  print ("The number {} is an even number" .format (n) )
-
-elif (n % 2 != 0):
-  print ("The number {} is an odd number" .format (n))
+if (n1<n2):
+  print ("The first number is the smallest")
+elif (n1>n2):
+  print ("The second number is the smallest")
+elif (n1==n2):
+  print ("Both are equal")
