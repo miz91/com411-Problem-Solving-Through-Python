@@ -1,21 +1,11 @@
+# finding even and odd numbers
+# modulus % is used to get the remaining value 
 
-#helping beep to learn painting
-print("Which way to paint (up,down,left,right)?")
-direction = input ()
+print ("Enter a number")
+n = int (input ())
 
-if direction == "up":
-  print("I am painting in the upward direction")
+if (n % 2 == 0):
+  print ("The number {} is an even number" .format (n) )
 
-elif direction == "down":
-  print("I am painting in the downward direction")
-
-elif direction == "left":
-  print("I am painting from left")
-
-elif direction == "right":
-  print("I am painting from right")
-
-else:
-  print ("Learn to read")
-
-
+elif (n % 2 != 0):
+  print ("The number {} is an odd number" .format (n))
