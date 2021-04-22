@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 #asking user for input
 print ("Enter the type of adventure")
